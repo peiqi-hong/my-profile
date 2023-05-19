@@ -1,0 +1,161 @@
+/* CSS code for the profile page */
+body {
+    font-family: "Arial", sans-serif;
+    color: rgb(30, 30, 30);
+    background-color: #DFDDDF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    line-height: 1.6;
+  }
+  
+  header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #FF530D;
+    margin-bottom: 30px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  section h2 {
+    color: #FF530D;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    margin-bottom: 10px;
+  }
+  
+  section a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+  
+  section a:hover {
+    color: #FF530D;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  footer h2 {
+    font-size: 20px;
+    color: #FF530D;
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .container {
+    width: 700px;
+    margin: 40px auto;
+  }
+  
+  .card-white {
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture {
+    border-radius: 50%;
+  }
+  
+  .intro-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .social-networks {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .social-networks > li {
+    display: inline;
+    padding: 0 10px;
+  }
+  
+  .social-networks > li > a {
+    text-decoration: none;
+  }
+  
+  /* Additional CSS for the given HTML */
+  .banner {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    color: #333;
+  }
+  
+  .banner h2 {
+    color: #666;
+  }
+  
+  .btn-blue {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    flex-basis: 30%;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .card h3 {
+    color: #333;
+  }
+  
